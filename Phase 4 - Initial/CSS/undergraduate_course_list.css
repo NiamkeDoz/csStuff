@@ -1,0 +1,83 @@
+#programName{
+    text-align: center;
+}
+
+.page_title{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.course{
+    margin: auto;
+    width: 70%;
+    height: 140px;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);    
+}
+
+
+.title{
+    font-size: 20px;
+    text-align: center;
+       color: white;
+}
+
+.upcoming_course_times_button{
+    font-size: 14px;
+    cursor: hover;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 10px;
+    background-color: #333;
+    text-align: center;
+}
+
+.text{
+    font-size: 16px;
+    padding: 0px 40px 0px 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.description{
+    font-size: 16px;
+    padding: 10px 0 10px 30px;
+    padding-top: 10px;
+       color: white;
+}
+
+.description_text{
+    font-size: 16px;
+    float: right;
+    width: 630px;
+       color: white;
+}
+.square{
+        border-radius: 50px;
+        width: 1000px;
+        height: 1000px;
+        Background-color: maroon;/* Your Color */
+        align-content: center;
+}
+.container {
+    flex-direction: column;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 1250px; 
+    
+}
+h2{
+   color: white;
+}
+p{
+    color: white;
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}

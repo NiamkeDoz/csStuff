@@ -1,0 +1,335 @@
+@media screen and (min-width: 800px){
+  #mobile_title{
+    display: none;
+  }
+
+  #img-banner{
+   width: 100%;
+}
+
+/* Navbar container */
+.navbar {
+   overflow: hidden;
+   background-color: #333;
+   font-family: Arial;
+   text-align: center;
+ }
+ 
+ /* Links inside the navbar */
+ .navbar a {
+   
+   font-size: 16px;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ /* The dropdown container */
+ .dropdown,  .first_dropdown{ 
+   display: inline-block;
+   overflow: hidden;
+   text-align: center;
+ }
+ 
+ /* Dropdown button */
+ .dropdown .dropbtn, .first_dropdown .dropbtn {
+   font-size: 16px;
+   border: none;
+   outline: none;
+   color: white;
+   padding: 14px 16px;
+   background-color: inherit;
+   text-align: center;
+ }
+ 
+ /* Add a red background color to navbar links on hover */
+ .navbar a:hover, .dropdown:hover .dropbtn, .first_dropdown:hover .dropbtn {
+   background-color: red;
+ }
+ 
+ /* Dropdown content (hidden by default) */
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+ 
+ /* Links inside the dropdown */
+ .dropdown-content a {
+   float: none;
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   text-align: center;
+ }
+ 
+ /* Add a grey background color to dropdown links on hover */
+ .dropdown-content a:hover {
+   background-color: #ddd;
+ }
+ 
+ /* Show the dropdown menu on hover */
+ .dropdown:hover .dropdown-content, .first_dropdown:hover .dropdown-content {
+   display: block;
+ } 
+
+ .body-container{
+   margin: 0;
+   background-color: white;
+}
+
+.Navigation{
+
+   text-align: center;
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+}
+
+
+/* *********** Footer Begins here *********** */
+.footer{
+   text-align: center;
+}
+html { 
+       background: url('../images/topbanner.gif') no-repeat center center fixed; 
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+}
+#menu_icon{
+  display: none;
+
+}
+}
+
+@media screen and (max-width: 800px) and (min-width:500px) {
+  html{
+    background-color: maroon;
+  }
+
+  #mobile_title{
+    display: none;
+    text-align: center;
+    color: white;
+  }
+
+  #img-banner{
+    width: 100%;
+ }
+
+  .navbar .dropdown {
+    display: none;
+  }
+
+  .navbar .icon {
+    float: right;
+    display: block;
+  }
+
+  .navbar .first_dropdown{ 
+    cursor: pointer;
+    display: block;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    text-align: center;
+  }
+
+  .navbar a {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar .first_dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    text-align: center;
+  }
+
+  .navbar.responsive {position: relative;}
+  
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .navbar.responsive .dropdown, .navbar.responsive .first_dropdown{
+    cursor: pointer;
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .navbar.responsive .first_dropdown .dropbtn, .navbar.responsive .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    text-align: center;
+  }
+
+  .navbar.responsive .dropdown .dropdown-content{
+    display: none;
+  }
+
+  .navbar.responsive .first_dropdown .dropbtn, .navbar.responsive .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    text-align: center;
+  }
+
+  .navbar.responsive .dropdown.responsive .dropdown-content{
+    display: block;
+  }
+
+  .navbar.responsive .dropdown.responsive .dropdown-content a{
+    font-size: 14px;
+    float: none;
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html{
+    background-color: maroon;
+  }
+
+  #mobile_title{
+    margin: auto;
+    text-align: center;
+    color: white;
+  }
+
+  #img-banner{
+    display: none;
+ }
+ 
+  .navbar .dropdown {
+    display: none;
+  }
+
+  .navbar .icon {
+    float: right;
+    display: block;
+  }
+
+  .navbar .first_dropdown{ 
+    cursor: pointer;
+    display: block;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    text-align: center;
+  }
+
+  .navbar a {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar .first_dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .navbar.responsive {position: relative;}
+  
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .navbar.responsive .dropdown, .navbar.responsive .first_dropdown{
+    cursor: pointer;
+    float: none;
+    display: block;
+    text-align: left;
+    max-width: 100%;
+  }
+
+  .navbar.responsive .first_dropdown .dropbtn, .navbar.responsive .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .navbar.responsive .dropdown .dropdown-content{
+    display: none;
+  }
+
+  .navbar.responsive .first_dropdown .dropbtn, .navbar.responsive .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    text-align: center;
+  }
+
+  .navbar.responsive .dropdown.responsive .dropdown-content{
+    display: block;
+  }
+
+  .navbar.responsive .dropdown.responsive .dropdown-content a{
+    font-size: 14px;
+    float: none;
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+    max-width: 100%;
+  }
+}
